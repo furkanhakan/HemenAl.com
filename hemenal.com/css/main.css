@@ -152,6 +152,7 @@ textarea{
 
 #filtrele{
 	background-color: #f8f8f8;
+	margin-top: 1rem;
 
 }
 #filtrele a{
@@ -166,4 +167,32 @@ height: 20px;
 	text-align: center;
 	top: -2px;
 	position: relative;
+}
+
+#arabalar .card img{
+	width: 100%;
+}
+#arabalar a{
+	text-decoration: none;
+}
+#arabalar .card-title{
+	font-size: 13px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#arabalar .card-text{
+	font-size: 25px;
+	text-align: center;
+	color: red;
+}
+#arabalar .card{
+	height: 100%;
+}
+.col-md-4{
+	margin-top: 1rem;
+}
+#arabaara{
+	position: sticky;
+	bottom: 0px;
 }

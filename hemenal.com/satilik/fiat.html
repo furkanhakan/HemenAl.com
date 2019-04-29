@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FIAT | Türkiyenin En Büyük Araba Satış Sitesi</title>
+	<meta charset="UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="../css/main.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+</head>
+<body>
+<!-- Navbar -->
+	<nav class="navbar navbar-expand-md p-3 fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggler btn navbar-light bg-light" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon "></span>
+			</button>
+			<a href="../index.html" class="navbar-brand"><img src="../img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>
+			
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-2 m-1">
+						<a href="../satilik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;"> Satılık Araba </a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a href="../kiralik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;">Kiralık Araba</a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a data-toggle="modal" href="#giris" data-target="#giris" class="nav-link btn">Giriş / Üye Ol</a>
+
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Navbar -->
+<br>
+<br>
+<br>
+<br>
+<!-- giris -->
+<div class="modal fade" id="giris">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<ul class="nav-tabs nav  ">
+				<li class="nav-item">
+					<a href="#mkayit" class="nav-link active" data-toggle="tab">Kayıt Ol</a>
+				</li>
+				<li class="nav-item">
+					<a href="#mgiris" class="nav-link" data-toggle="tab">Giriş Yap</a>
+				</li>
+			</ul>
+			<a class="close" style="cursor: pointer;" data-dismiss="modal">&times</a>
+		</div>
+		
+		<div class="modal-body">
+			<div class="tab-content">
+				<div class="tab-pane active" id="mkayit">
+					<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="adi">Adı</label>
+								<input class="form-control" type="text" name="adi" placeholder="Adı">
+							</div>
+							<div class="form-group">
+									<label for="soyadi">Soyadı</label>
+									<input class="form-control" type="text" name="soyadi" placeholder="Soyadı">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-success" type="submit">Kayıt Ol</button>
+					</form>
+				</div>
+				<div class="tab-pane" id="mgiris">
+					<form>
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+
+						<button class="btn btn-success" type="submit">Giriş</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-danger" data-dismiss="modal">Çıkış</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- giris -->
+
+<div class="container mt-1">
+	<div class="row">
+		<div class="col-md-3" id="filtrele">
+			<div >
+				<div style="height: 150px; overflow-y: scroll;">
+					<p style="font-weight: bold;">MARKA</p>
+					<div>
+						<a href="../satilik.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">TÜMÜ</span> </a>
+					</div>
+					<div>
+						<a href="audi.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">AUDI</span> </a>
+					</div>
+					<div>
+						<a href="bmw.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">BMW</span> </a>
+					</div>
+					<div>
+						<a href="citroen.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">CITROEN</span> </a>
+					</div>
+					<div>
+						<a href="fiat.html"><i class="material-icons">check_box</i><span style="top: -5px;position: relative;">FIAT</span> </a>
+					</div>
+					<div>
+						<a href="ford.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">FORD</span> </a>
+					</div>
+					<div>
+						<a href="honda.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">HONDA</span> </a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div id="yil">
+				<p style="font-weight: bold;">YIL</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="fiyat">
+				<p style="font-weight: bold;">FİYAT</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="km">
+				<p style="font-weight: bold;">KİLOMETRE</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="yakit">
+				<p style="font-weight: bold;">YAKIT TÜRÜ</p>
+				<div>
+					<input type="checkbox" name=""> DİZEL <br>
+					<input type="checkbox" name=""> BENZİN <br>
+					<input type="checkbox" name=""> LPG <br>
+				</div>
+			</div>
+			<hr>
+			<div id="vites">
+				<p style="font-weight: bold;">VİTES TÜRÜ</p>
+				<div>
+					<input type="checkbox" name=""> MANUEL <br>
+					<input type="checkbox" name=""> OTOMATİK <br>
+					<input type="checkbox" name=""> YARI-OTOMATİK <br>
+				</div>
+			</div>
+			<hr>
+			<div id="arabaara">
+				<button class="btn btn-success" style="width: 100%;">ARA</button>
+			</div>
+		</div>
+		<!-- arabalar -->
+		<div class="col-md-9" id="arabalar">
+			<div class="col-md-12">
+				<div class="row">
+					<!--fiat -->
+					<div class="col-md-4">
+						<a href="fiat1.html">
+							<div class="card">
+								<img src="araba/fiat1-1.jpg">
+								<div class="card-title">FIAT-LINEA-Yeni 1.4 77 HP POP GSR</div>
+								<div class="card-text">51.500 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat2.html">
+							<div class="card">
+								<img src="araba/fiat2-1.jpg">
+								<div class="card-title">FIAT-LINEA-1.3 MULTIJET 95 HP POP GSR</div>
+								<div class="card-text">47.000 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat3.html">
+							<div class="card">
+								<img src="araba/fiat3-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-MAXI EASY 1.3 90 MJET S1 STD</div>
+								<div class="card-text">48.000 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat4.html">
+							<div class="card">
+								<img src="araba/fiat4-1.jpg">
+								<div class="card-title">FIAT-EGEA-1.3 MJET 95 HP EU5 URBAN</div>
+								<div class="card-text">68.000 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat5.html">
+							<div class="card">
+								<img src="araba/fiat5-1.jpg">
+								<div class="card-title">FIAT-FIORINO-1.3 MJET 75HP COMBI PREMIO S1 STD</div>
+								<div class="card-text">53.500 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat6.html">
+							<div class="card">
+								<img src="araba/fiat6-1.jpg">
+								<div class="card-title">FIAT-Doblo Panorama-1.6 MJET EURO5</div>
+								<div class="card-text">52.500 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat7.html">
+							<div class="card">
+								<img src="araba/fiat7-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-PREMIO GREY 1.6 105 MJET S1 PLUS PK (208)</div>
+								<div class="card-text">63.500 TL</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat8.html">
+							<div class="card">
+								<img src="araba/fiat8-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-EASY 1.3 90 MJET S1 STD 519</div>
+								<div class="card-text">40.000 TL</div>
+							</div>
+						</a>
+					</div>
+					<!--fiat -->
+				</div>
+			</div>
+		</div>
+		<!-- arabalar -->
+	</div>
+</div>
+
+
+<!--footer -->
+<div id="footer">
+
+	<div id="sitelogo">
+		<img src="../img/logo.png" alt="">
+	</div>
+	<div id="sosyal">
+		<div class="fab fa-facebook"></div>
+		<div class="fab fa-instagram"></div>
+		<div class="fab fa-linkedin"></div>
+		<div class="fab fa-twitter"></div>
+		<div class="fab fa-youtube"></div>
+	</div>
+	<div id="uygulama">
+		<img src="../img/app-store-btn.png" alt="">
+		<img src="../img/google-play-btn.png" alt="">
+	</div>
+	<div id="logolar">
+		<a href="http://www.anadolugrubu.com.tr/" target="_blank">
+        	<img src="../img/m3.png" alt="Anadolu Grubu">
+    	</a>
+        <a href="http://www.celikmotor.com/" target="_blank">
+        	<img src="../img/m4.png" alt="Çelik Motor">
+        </a>
+        <a href="https://www.bulur.com" target="_blank">
+            <img src="../img/m5.png" alt="Bulur">
+        </a>
+        <a href="https://www.garenta.com.tr" target="_blank">
+            <img src="../img/m7.png" alt="Garenta Kısa Dönem">
+        </a>
+        <a href="https://www.garentamoov.com" target="_blank">
+            <img src="../img/m6.png" alt="Moov">
+        </a>
+        <a href="https://www.garentapro.com" target="_blank">
+            <img src="../img/m2.png" alt="Garenta Uzun Dönem">
+        </a>
+        <a href="https://www.praticar.com" target="_blank">
+            <img src="../img/m1.png" alt="Praticar">
+        </a>
+
+	</div>
+</div>
+<!--footer -->
+<!-- sor -->
+<div id="sor">
+	<button href="" id="kapat" class="fas fa-angle-down" style="width: 40px; text-align: center;"></button>
+	<p style="text-align: center; margin-top: 10px;">Size nasıl yardımcı olabiliriz?</p>
+	<div>
+		<div>
+			<textarea placeholder="Size nasıl yardımcı olabiliriz?"></textarea>
+			<hr>
+		</div>
+		<div>
+			<a href="" class="btn btn-success a" style="float: right; text-align: center; margin-bottom: 10px;"><span>Gönder</span></a>
+		</div>
+	</div>
+</div>
+<!-- sor -->
+
+</body>
+</html>
+
+<script type="text/javascript">
+		var sor=document.getElementById('sor');
+	var kapat=document.getElementById('kapat');
+	$('#kapat').click(function(){
+		deger= sor.style.bottom;
+		if(deger=='-230px'){
+			sor.style.bottom = "-0px";
+			kapat.className=kapat.className.replace(" fa-angle-up"," fa-angle-down");
+		}
+		else{
+    		sor.style.bottom = "-230px";
+    		kapat.className=kapat.className.replace(" fa-angle-down"," fa-angle-up");
+		}
+});
+</script>
