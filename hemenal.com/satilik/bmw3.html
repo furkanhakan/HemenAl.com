@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Araç Detay | Türkiyenin En Büyük Araba Satış Sitesi</title>
+	<meta charset="UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="../css/main.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+	<nav class="navbar navbar-expand-md p-3 fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggler btn navbar-light bg-light" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon "></span>
+			</button>
+			<a href="../index.html" class="navbar-brand"><img src="../img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>
+			
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-2 m-1">
+						<a href="../satilik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;"> Satılık Araba </a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a href="../kiralik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;">Kiralık Araba</a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a data-toggle="modal" href="#giris" data-target="#giris" class="nav-link btn">Giriş / Üye Ol</a>
+
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Navbar -->
+<br>
+<br>
+<br>
+<br>
+
+<!-- giris -->
+<div class="modal fade" id="giris">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<ul class="nav-tabs nav  ">
+				<li class="nav-item">
+					<a href="#mkayit" class="nav-link active" data-toggle="tab">Kayıt Ol</a>
+				</li>
+				<li class="nav-item">
+					<a href="#mgiris" class="nav-link" data-toggle="tab">Giriş Yap</a>
+				</li>
+			</ul>
+			<a class="close" style="cursor: pointer;" data-dismiss="modal">&times</a>
+		</div>
+		
+		<div class="modal-body">
+			<div class="tab-content">
+				<div class="tab-pane active" id="mkayit">
+					<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="adi">Adı</label>
+								<input class="form-control" type="text" name="adi" placeholder="Adı">
+							</div>
+							<div class="form-group">
+									<label for="soyadi">Soyadı</label>
+									<input class="form-control" type="text" name="soyadi" placeholder="Soyadı">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-success" type="submit">Kayıt Ol</button>
+					</form>
+				</div>
+				<div class="tab-pane" id="mgiris">
+					<form>
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+
+						<button class="btn btn-success" type="submit">Giriş</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-danger" data-dismiss="modal">Çıkış</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- giris -->
+
+
+<div id="arabaisim" class="container">
+	<h3 class="text-center">BMW-3 Serisi-2.0 320D AUTO SPORT PLUS</h3>
+</div>
+<hr>
+<br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<!-- Slide -->
+			<div class="carousel slide" id="sec" data-ride="carousel">
+					<ul class="carousel-indicators">
+						<li data-target="#sec" class="active" data-slide-to="0"></li>
+						<li data-target="#sec" data-slide-to="1"></li>
+						<li data-target="#sec" data-slide-to="2"></li>
+					</ul>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="araba/bmw3-1.jpg" >
+						</div>
+						<div class="carousel-item">
+							<img src="araba/bmw3-1.jpg" >
+						</div>
+						<div class="carousel-item">
+							<img src="araba/bmw3-3.jpg" >
+						</div>
+					</div>
+				</div>
+		<!-- Slide -->
+		</div>
+		<div class="col-md-4">
+			<div id="aracfiyat">
+				198.500 TL
+			</div>
+			<div id="satinal">
+				<button class="btn btn-danger mt-4">SATIN AL</button>
+			</div>
+			<div id="ozellikler" class="mt-5">
+				<table class="table">
+					<tbody>
+						<tr>
+							<th>MARKA</th>
+							<td>BMW</td>
+						</tr>
+						<tr>
+							<th>MODEL</th>
+							<td>7 SERISI</td>
+						</tr>
+						<tr>
+							<th>MODEL YILI</th>
+							<td>2013</td>
+						</tr>
+						<tr>
+							<th>YAKIT TURU</th>
+							<td>DIZEL</td>
+						</tr>
+						<tr>
+							<th>VITES TIPI</th>
+							<td>OTOMATIK</td>
+
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!--footer -->
+<div id="footer">
+
+	<div id="sitelogo">
+		<img src="../img/logo.png" alt="">
+	</div>
+	<div id="sosyal">
+		<div class="fab fa-facebook"></div>
+		<div class="fab fa-instagram"></div>
+		<div class="fab fa-linkedin"></div>
+		<div class="fab fa-twitter"></div>
+		<div class="fab fa-youtube"></div>
+	</div>
+	<div id="uygulama">
+		<img src="../img/app-store-btn.png" alt="">
+		<img src="../img/google-play-btn.png" alt="">
+	</div>
+	<div id="logolar">
+		<a href="http://www.anadolugrubu.com.tr/" target="_blank">
+        	<img src="../img/m3.png" alt="Anadolu Grubu">
+    	</a>
+        <a href="http://www.celikmotor.com/" target="_blank">
+        	<img src="../img/m4.png" alt="Çelik Motor">
+        </a>
+        <a href="https://www.bulur.com" target="_blank">
+            <img src="../img/m5.png" alt="Bulur">
+        </a>
+        <a href="https://www.garenta.com.tr" target="_blank">
+            <img src="../img/m7.png" alt="Garenta Kısa Dönem">
+        </a>
+        <a href="https://www.garentamoov.com" target="_blank">
+            <img src="../img/m6.png" alt="Moov">
+        </a>
+        <a href="https://www.garentapro.com" target="_blank">
+            <img src="../img/m2.png" alt="Garenta Uzun Dönem">
+        </a>
+        <a href="https://www.praticar.com" target="_blank">
+            <img src="../img/m1.png" alt="Praticar">
+        </a>
+
+	</div>
+</div>
+<!--footer -->
+</body>

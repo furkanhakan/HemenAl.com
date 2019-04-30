@@ -196,3 +196,11 @@ height: 20px;
 	position: sticky;
 	bottom: 0px;
 }
+#aracfiyat{
+	text-align: left;
+	font-size: 30px;
+	color: red;
+}
+#satinal .btn{
+	width: 90%;
+}
