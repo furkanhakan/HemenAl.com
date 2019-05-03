@@ -123,7 +123,8 @@
 
 <div class="container mt-1">
 	<div class="row">
-		<div class="col-md-3" id="filtrele">
+		<!-- filtre md -->
+		<div class="col-md-3 mt-3 d-sm-none d-md-block d-none" id="filtrele">
 			<div >
 				<div style="height: 150px; overflow-y: scroll;">
 					<p style="font-weight: bold;">MARKA</p>
@@ -197,12 +198,90 @@
 				<button class="btn btn-success" style="width: 100%;">ARA</button>
 			</div>
 		</div>
+		<!-- filtre md -->
+		<!-- filtre sm -->
+		<button class="btn btn-info navbar-toggler bg-success d-sm-block d-md-none mt-3" data-toggle="collapse"data-target="#filtrele" style="width: 100%;">FILTRELE</button>
+		<div class="col-md-3 mt-3  collapse" id="filtrele">
+			<div >
+				<div style="height: 150px; overflow-y: scroll;">
+					<p style="font-weight: bold;">MARKA</p>
+					<div>
+						<a href="../satilik.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">TÜMÜ</span> </a>
+					</div>
+					<div>
+						<a href="audi.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">AUDI</span> </a>
+					</div>
+					<div>
+						<a href="bmw.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">BMW</span> </a>
+					</div>
+					<div>
+						<a href="citroen.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">CITROEN</span> </a>
+					</div>
+					<div>
+						<a href="fiat.html"><i class="material-icons">check_box</i><span style="top: -5px;position: relative;">FIAT</span> </a>
+					</div>
+					<div>
+						<a href="ford.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">FORD</span> </a>
+					</div>
+					<div>
+						<a href="honda.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">HONDA</span> </a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div id="yil">
+				<p style="font-weight: bold;">YIL</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="fiyat">
+				<p style="font-weight: bold;">FİYAT</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="km">
+				<p style="font-weight: bold;">KİLOMETRE</p>
+				<div>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
+				</div>
+			</div>
+			<hr>
+			<div id="yakit">
+				<p style="font-weight: bold;">YAKIT TÜRÜ</p>
+				<div>
+					<input type="checkbox" name=""> DİZEL <br>
+					<input type="checkbox" name=""> BENZİN <br>
+					<input type="checkbox" name=""> LPG <br>
+				</div>
+			</div>
+			<hr>
+			<div id="vites">
+				<p style="font-weight: bold;">VİTES TÜRÜ</p>
+				<div>
+					<input type="checkbox" name=""> MANUEL <br>
+					<input type="checkbox" name=""> OTOMATİK <br>
+					<input type="checkbox" name=""> YARI-OTOMATİK <br>
+				</div>
+			</div>
+			<hr>
+			<div id="arabaara">
+				<button class="btn btn-success" style="width: 100%;">ARA</button>
+			</div>
+		</div>
+		<!-- filtre sm -->
 		<!-- arabalar -->
 		<div class="col-md-9" id="arabalar">
 			<div class="col-md-12">
 				<div class="row">
 					<!--fiat -->
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat1.html">
 							<div class="card">
 								<img src="araba/fiat1-1.jpg">
@@ -211,7 +290,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat2.html">
 							<div class="card">
 								<img src="araba/fiat2-1.jpg">
@@ -220,7 +299,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat3.html">
 							<div class="card">
 								<img src="araba/fiat3-1.jpg">
@@ -229,7 +308,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat4.html">
 							<div class="card">
 								<img src="araba/fiat4-1.jpg">
@@ -238,7 +317,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat5.html">
 							<div class="card">
 								<img src="araba/fiat5-1.jpg">
@@ -247,7 +326,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat6.html">
 							<div class="card">
 								<img src="araba/fiat6-1.jpg">
@@ -256,7 +335,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat7.html">
 							<div class="card">
 								<img src="araba/fiat7-1.jpg">
@@ -265,7 +344,7 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6 col-lg-4">
 						<a href="fiat8.html">
 							<div class="card">
 								<img src="araba/fiat8-1.jpg">
