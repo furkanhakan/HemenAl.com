@@ -1,3 +1,4 @@
+
 nav{
 box-shadow:  0 2px 8px 0 rgba(0,0,0,.06);
 background-color: #FFF;
@@ -123,7 +124,6 @@ textarea{
 }
 #ara{
 	background-color: #0087e6;
-	
 	border-top-left-radius: 50% 10px;
     border-top-right-radius: 50% 10px;
     padding: 30px;
@@ -189,6 +189,14 @@ height: 20px;
 #arabalar .card{
 	height: 100%;
 }
+#arabalar .card-kucuk-text{
+	font-size: 10px;
+	text-align: right;
+	position: relative;
+	bottom: 0;
+	color:#7f7f7f;
+	font-weight: bold;
+}
 .col-md-4{
 	margin-top: 1rem;
 }
@@ -203,4 +211,25 @@ height: 20px;
 }
 #satinal .btn{
 	width: 90%;
+}
+#linkler{
+	margin-top: 40px;
+background-color: #131111;
+color: white;
+padding: 15px 0;
+}
+#linkler a{
+	padding: 10px;
+	color: white;
+}
+#linkler a:hover{
+	text-decoration: none;
+	color:red;
+	transition: 0.5s;
+}
+#sayfa{
+	background-color: #05d07b;
+	margin-top: 83px;
+	padding: 10px;
+	color: white;
 }

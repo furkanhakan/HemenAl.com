@@ -47,10 +47,6 @@
 		</div>
 	</nav>
 <!-- Navbar -->
-<br>
-<br>
-<br>
-<br>
 <!-- giris -->
 <div class="modal fade" id="giris">
 <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -120,84 +116,186 @@
 </div>
 <!-- giris -->
 
-<div class="container mt-5">
+<div id="sayfa" class="text-center">
+	<h2 style="background-color: #05d07b;">Kiralık Araba - FIAT</h2>
+
+</div>
+
+<div class="container mt-1">
 	<div class="row">
-	<div class="col-md-3" id="filtrele">
-		<div >
-			<div style="height: 150px; overflow-y: scroll;">
-				<p style="font-weight: bold;">MARKA</p>
-				<div>
-					<a href="../kiralik.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">TÜMÜ</span> </a>
+		<div class="col-md-3" id="filtrele">
+			<div >
+				<div style="height: 150px; overflow-y: scroll;">
+					<p style="font-weight: bold;">MARKA</p>
+					<div>
+						<a href="../kiralik.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">TÜMÜ</span> </a>
+					</div>
+					<div>
+						<a href="audi.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">AUDI</span> </a>
+					</div>
+					<div>
+						<a href="bmw.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">BMW</span> </a>
+					</div>
+					<div>
+						<a href="citroen.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">CITROEN</span> </a>
+					</div>
+					<div>
+						<a href="fiat.html"><i class="material-icons">check_box</i><span style="top: -5px;position: relative;">FIAT</span> </a>
+					</div>
+					<div>
+						<a href="ford.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">FORD</span> </a>
+					</div>
+					<div>
+						<a href="honda.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">HONDA</span> </a>
+					</div>
 				</div>
+			</div>
+			<hr>
+			<div id="yil">
+				<p style="font-weight: bold;">YIL</p>
 				<div>
-					<a href="audi.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">AUDI</span> </a>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
 				</div>
+			</div>
+			<hr>
+			<div id="fiyat">
+				<p style="font-weight: bold;">FİYAT</p>
 				<div>
-					<a href="bmw.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">BMW</span> </a>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
 				</div>
+			</div>
+			<hr>
+			<div id="km">
+				<p style="font-weight: bold;">KİLOMETRE</p>
 				<div>
-					<a href="citroen.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">CITROEN</span> </a>
+					<input type="text" name="" placeholder="MİN"> - 
+					<input type="text" name="" placeholder="MAX">
 				</div>
+			</div>
+			<hr>
+			<div id="yakit">
+				<p style="font-weight: bold;">YAKIT TÜRÜ</p>
 				<div>
-					<a href="fiat.html"><i class="material-icons">check_box</i><span style="top: -5px;position: relative;">FIAT</span> </a>
+					<input type="checkbox" name=""> DİZEL <br>
+					<input type="checkbox" name=""> BENZİN <br>
+					<input type="checkbox" name=""> LPG <br>
 				</div>
+			</div>
+			<hr>
+			<div id="vites">
+				<p style="font-weight: bold;">VİTES TÜRÜ</p>
 				<div>
-					<a href="ford.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">FORD</span> </a>
+					<input type="checkbox" name=""> MANUEL <br>
+					<input type="checkbox" name=""> OTOMATİK <br>
+					<input type="checkbox" name=""> YARI-OTOMATİK <br>
 				</div>
-				<div>
-					<a href="honda.html"><i class="material-icons">check_box_outline_blank</i><span style="top: -5px;position: relative;">HONDA</span> </a>
+			</div>
+			<hr>
+			<div id="arabaara">
+				<button class="btn btn-success" style="width: 100%;">ARA</button>
+			</div>
+		</div>
+		<!-- arabalar -->
+		<div class="col-md-9" id="arabalar">
+			<div class="col-md-12">
+				<div class="row">
+					<!--fiat -->
+					<div class="col-md-4">
+						<a href="fiat1.html">
+							<div class="card">
+								<img src="araba/fiat1-1.jpg">
+								<div class="card-title">FIAT-LINEA-Yeni 1.4 77 HP POP GSR</div>
+								<div class="card-text">50.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat2.html">
+							<div class="card">
+								<img src="araba/fiat2-1.jpg">
+								<div class="card-title">FIAT-LINEA-1.3 MULTIJET 95 HP POP GSR</div>
+								<div class="card-text">45.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat3.html">
+							<div class="card">
+								<img src="araba/fiat3-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-MAXI EASY 1.3 90 MJET S1 STD</div>
+								<div class="card-text">45.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat4.html">
+							<div class="card">
+								<img src="araba/fiat4-1.jpg">
+								<div class="card-title">FIAT-EGEA-1.3 MJET 95 HP EU5 URBAN</div>
+								<div class="card-text">55.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat5.html">
+							<div class="card">
+								<img src="araba/fiat5-1.jpg">
+								<div class="card-title">FIAT-FIORINO-1.3 MJET 75HP COMBI PREMIO S1 STD</div>
+								<div class="card-text">50.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat6.html">
+							<div class="card">
+								<img src="araba/fiat6-1.jpg">
+								<div class="card-title">FIAT-Doblo Panorama-1.6 MJET EURO5</div>
+								<div class="card-text">50.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat7.html">
+							<div class="card">
+								<img src="araba/fiat7-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-PREMIO GREY 1.6 105 MJET S1 PLUS PK (208)</div>
+								<div class="card-text">70.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="fiat8.html">
+							<div class="card">
+								<img src="araba/fiat8-1.jpg">
+								<div class="card-title">FIAT-DOBLO COMBI-EASY 1.3 90 MJET S1 STD 519</div>
+								<div class="card-text">40.00 TL</div>
+								<div class="card-kucuk-text">1 Gunlük Fiyat</div>
+							</div>
+						</a>
+					</div>
+					<!--fiat -->
 				</div>
 			</div>
 		</div>
-		<hr>
-		<div id="yil">
-			<p style="font-weight: bold;">YIL</p>
-			<div>
-				<input type="text" name="" placeholder="MİN"> - 
-				<input type="text" name="" placeholder="MAX">
-			</div>
-		</div>
-		<hr>
-		<div id="fiyat">
-			<p style="font-weight: bold;">FİYAT</p>
-			<div>
-				<input type="text" name="" placeholder="MİN"> - 
-				<input type="text" name="" placeholder="MAX">
-			</div>
-		</div>
-		<hr>
-		<div id="km">
-			<p style="font-weight: bold;">GÜN SAYISI</p>
-			<div>
-				<input type="text" name="" placeholder="MİN"> - 
-				<input type="text" name="" placeholder="MAX">
-			</div>
-		</div>
-		<hr>
-		<div id="yakit">
-			<p style="font-weight: bold;">YAKIT TÜRÜ</p>
-			<div>
-				<input type="checkbox" name=""> DİZEL <br>
-				<input type="checkbox" name=""> BENZİN <br>
-				<input type="checkbox" name=""> LPG <br>
-			</div>
-		</div>
-		<hr>
-		<div id="vites">
-			<p style="font-weight: bold;">VİTES TÜRÜ</p>
-			<div>
-				<input type="checkbox" name=""> MANUEL <br>
-				<input type="checkbox" name=""> OTOMATİK <br>
-				<input type="checkbox" name=""> YARI-OTOMATİK <br>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-9">
-	</div>
+		<!-- arabalar -->
 	</div>
 </div>
 
-
+<div id="linkler" style="text-align: center;">
+	<a href="../kullanimsartlari.html"> Kullanım Şartları</a>
+	<a href="../kisiselverikorunması.html">Kişisel Verilerin Korunması</a>
+	<a href="../politikalar.html">Politikalar</a>
+	<a href="../iletisim.html">İletişim</a>
+</div>
 <!--footer -->
 <div id="footer">
 
