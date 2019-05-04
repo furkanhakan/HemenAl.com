@@ -1,4 +1,3 @@
-
 nav{
 box-shadow:  0 2px 8px 0 rgba(0,0,0,.06);
 background-color: #FFF;
@@ -97,7 +96,7 @@ background-color: #FFF;
 	right: 20px;
 	box-shadow:  0 0 0px 0 rgba(0, 0, 0, 0.6) !important;
 }
-textarea{
+textarea:not(.form-control){
 	width: 90%; 
 	height: 100px;
 	left: 15px;
@@ -232,4 +231,59 @@ padding: 15px 0;
 	margin-top: 83px;
 	padding: 10px;
 	color: white;
+}
+#kullanim,#kisisel,#politikalar{
+	padding: 20px;
+	background-color: #f9f9f9;
+	font-size: 15px;
+	border: none;
+
+}
+#kullanim li{
+	padding-top: 7px;
+}
+#kisisel li{
+	color: #fe2728;
+}
+#kisisel p{
+	margin-left: -15px;
+}
+#kisisel ul li{
+	color: black;
+	list-style-type: disc;
+}
+body{
+	font-family: "Helvetica Neue";
+}
+#iletisim-sol,#iletisim-sag{
+	padding:13px;
+	font-size: 17px;
+	background-color: #f9f9f9;
+	border: none;
+}
+#iletisim-sol #numara{
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+#iletisim-sol #isim{
+	font-weight: bold;
+	padding-top: 20px;
+}
+#iletisim-sol #adres{
+	padding-top: 20px;
+}
+#iletisim-sol #tel{
+	padding-top: 20px;
+}
+#iletisim-sol #faks{
+	padding-top: 20px;
+}
+#iletisim-sag label{
+	margin-bottom: 0;
+	color: #838383;
+	font-size: 12px;
+}
+#iletisim-sag{
+	padding-left: 25px;
 }

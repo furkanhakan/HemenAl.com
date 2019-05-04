@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kişisel Verilerin Korunması | Türkiyenin En Büyük Araba Satış Sitesi</title>
+	<meta charset="UTF-8"/>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+<script src="js/owl.carousel.js"></script>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+<script src="js/main.js"></script>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md p-3 fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggler btn navbar-light bg-light" data-toggle="collapse" data-target="#navbar-boot" aria-controls="navbar-boot">
+				<span class="navbar-toggler-icon "></span>
+			</button>
+			<a href="index.html" class="navbar-brand"><img src="img/logo.png" class="figure-caption" alt="logo" style="height: 40px; width: 200px;"></a>
+			
+			<div class="collapse navbar-collapse" id="navbar-boot">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item px-2 m-1">
+						<a href="satilik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;"> Satılık Araba </a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a href="kiralik.html" class="nav-link btn btn-success" style="border-radius: 18px;padding-left: 10px;padding-right: 10px;">Kiralık Araba</a>
+					</li>
+					<li class="nav-item px-2 m-1">
+						<a data-toggle="modal" href="#giris" data-target="#giris" class="nav-link btn">Giriş / Üye Ol</a>
+
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- Navbar -->
+<br>
+<br>
+<br>
+<br>
+<!-- giris -->
+<div class="modal fade" id="giris">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-content">
+		<div class="modal-header">
+			<ul class="nav-tabs nav  ">
+				<li class="nav-item">
+					<a href="#mkayit" class="nav-link active" data-toggle="tab">Kayıt Ol</a>
+				</li>
+				<li class="nav-item">
+					<a href="#mgiris" class="nav-link" data-toggle="tab">Giriş Yap</a>
+				</li>
+			</ul>
+			<a class="close" style="cursor: pointer;" data-dismiss="modal">&times</a>
+		</div>
+		
+		<div class="modal-body">
+			<div class="tab-content">
+				<div class="tab-pane active" id="mkayit">
+					<form>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="adi">Adı</label>
+								<input class="form-control" type="text" name="adi" placeholder="Adı">
+							</div>
+							<div class="form-group">
+									<label for="soyadi">Soyadı</label>
+									<input class="form-control" type="text" name="soyadi" placeholder="Soyadı">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+							</div>
+						</div>
+						<button class="btn btn-success" type="submit">Kayıt Ol</button>
+					</form>
+				</div>
+				<div class="tab-pane" id="mgiris">
+					<form>
+								<div class="form-group">
+									<label for="E-mail">E-Mail:</label>
+									<input class="form-control" type="text" name="E-mail" placeholder="E-Mail">
+								</div>
+								<div class="form-group">
+									<label for="parola">Parola</label>
+									<input class="form-control" type="password" name="parola" placeholder="Parola">
+								</div>
+
+						<button class="btn btn-success" type="submit">Giriş</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="modal-footer">
+			<button class="btn btn-danger" data-dismiss="modal">Çıkış</button>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- giris -->
+
+
+
+<div class="container">
+	<div class="card" id="kisisel">
+		<ol>
+			<li>Genel Olarak</li>
+			<p>HemenAl Otomotiv Ticaret ve Sanayi Anonim Şirketi (“HemenAl Otomotiv’’) nezdinde kişisel verilerinizin güvenliği hususuna azami hassasiyet göstermekteyiz. Bu bilinçle, HemenAl Otomotiv olarak ürün ve hizmetlerimizden faydalanan kişiler dâhil, HemenAl Otomotiv ile ilişkili tüm şahıslara ait her türlü kişisel verinin mümkün olabilen en iyi şekilde ve özenle işlenerek muhafaza edilmesine büyük önem atfetmekteyiz. Bu sorumluluğumuzun tam idraki ile 6698 sayılı Kişisel Verilerin Korunması Kanunu (“Kanun”) ve ilgili mevzuat kapsamında Veri Sorumlusu sıfatıyla, kişisel verilerinizi aşağıda izah edildiği surette ve mevzuat tarafından emredilen sınırlar çerçevesinde işlemekteyiz.</p>
+			<li>Kişisel Verilerin Toplanması, İşlenmesi ve İşleme Amaçları</li>
+			<p>Kişisel verileriniz, HemenAl Otomotiv tarafından verilen hizmet, ürün ya da ticari faaliyete bağlı olarak değişkenlik gösterebilmekle; otomatik ya da otomatik olmayan yöntemlerle, ofisler, şubeler, bayiler, çağrı merkezi, internet sitesi, sosyal medya mecraları, mobil uygulamalar ve benzeri vasıtalarla sözlü, yazılı ya da elektronik olarak toplanmaktadır. HemenAl Otomotiv ve markalarının hizmetlerinden yararlandığınız müddetçe oluşturularak ve güncellenerek, aşağıda yer alan amaçlar dâhil ve bunlarla sınırlı olmaksızın genel nitelikli ve dahi özel nitelikli kişisel verileriniz işlenebilmektedir:</p>
+			<ul>
+				<li>Adınız, soyadınız, TC Kimlik numaranız, pasaport numaranız veya geçici TC Kimlik numaranız, doğum yeri ve tarihiniz, medeni haliniz, cinsiyetiniz, protokol numaranız ve sizi tanımlayabileceğimiz diğer kimlik verileriniz,</li>
+				<li>Adresiniz, telefon numaranız, elektronik posta adresiniz ve sair iletişim verileriniz,</li>
+				<li>Banka hesap numaranız, IBAN numaranız, kredi kartı bilgileriniz, faturalama bilgileriniz gibi finansal verileriniz,</li>
+				<li>Hizmetlerimize erişiminizde finansal yeterlilik ön değerlendirmesi yapılabilmesi için kredi notunuz vb. bilgileriniz ve finansal özgeçmişinize ilişkin veriler,</li>
+				<li>Satış ve kiralama hizmetlerimiz aracılığıyla edindiğimiz veriler,</li>
+				<li>Sözleşmenin ifası kapsamında edinilen faaliyet belgesi, meslek odası kaydı vb. mesleki veriler ile gerektiği takdirde temin edilen imza sirküleri ve imza veriniz,</li>
+				<li>Müşteri temsilcileri tarafından çağrı merkezi standartları gereği tutulan sesli görüşme kayıtlarınız ile elektronik posta, mektup veya sair vasıtalar aracılığı ile tarafımızla iletişime geçtiğinizde elde edilen kişisel verileriniz,</li>
+				<li>Tesislerimizi, bayilerimizi, ofislerimizi ziyaret etmeniz halinde kamera kayıtları görüntüleriniz,</li>
+				<li>Otoparkı kullanmanız halinde araç plaka veriniz,</li>
+				<li>HemenAl Otomotiv’e iş başvurusunda bulunmanız halinde bu hususta temin edilen özgeçmiş dâhil sair kişisel verileriniz ile HemenAl Otomotiv çalışanı ya da ilişkili çalışan olmanız halinde özlük dosyasının oluşturulması için gerekli olan verileriniz ile dernek üyelik verileriniz, hizmet akdiniz ve işe yatkınlığınız ile ilgili her türlü kişisel verileriniz,</li>
+				<li>İşin gereklerini sürekli olarak yerine getirmeye ehil olup olmadığınızın tespitini gerçekleştirmek amacıyla edinilen, sağlık verileriniz ve askerlik durum bilginiz de dâhil olmak üzere sair veriniz,</li>
+				<li>Özel sağlık sigortası temini ve finansmanına ilişkin verileriniz ve Sosyal Güvenlik Kurumu verileriniz,</li>
+				<li>Koç emeklilik vakfına kayıt oluşturulmasını teminen edinilen kan testleri vb. sağlık bilgileri, yasal varise ilişkin lehdar mektubu ve sair gerekli verileriniz,</li>
+			</ul>
+			<p>Ayrıca, belirli bir HemenAl Otomotiv çevrimiçi –online- hizmetlerini kullanmak niyetiyle çağrı merkezimizi veya internet sitemizi kullandığınızda, HemenAl Otomotiv’in düzenlediği eğitim, seminer veya organizasyonlara katıldığınızda veya internet sayfalarını ziyaret etmeniz ya da bu sitelerde gezmeniz halinde de kişisel verileriniz işlenebilecektir.</p>
+			<p>Kişisel verileriniz;</p>
+			<ul>
+				<li>Yeni ve ikinci el araç satışı,</li>
+				<li>Satış sonrası hizmetlerinin gereği gibi yerine getirilmesi,</li>
+				<li>Toptan yedek parça ve aksesuar satışı,</li>
+				<li>Sigorta, finansman hizmetlerinin temini,</li>
+				<li>Araç koruma hizmetlerinin sağlanması,</li>
+				<li>Lisansiye ve bayilik sözleşmelerinin gereklerinin yerine getirilmesi,</li>
+				<li>Mail order ve virman talimatı da dâhil olmak üzere tahsilat işlemlerinin gerçekleştirilmesi,</li>
+				<li>Cari hesap kartı teşkili,</li>
+				<li>Saatlik, günlük ve aylık araç kiralama hizmetlerinde, müşterilerimize; indirim, hediye çeki, ürün-hizmet tanıtımı, bilgilendirme, kişiye özel reklam, kampanya ve diğer faydaların sunulması, sadakat programları çerçevesinde ticari elektronik iletilerin gönderilmesi, anket ve tele-satış uygulamaları, istatistiki analizler vasıtasıyla çeşitli avantajlar sağlanması,</li>
+				<li>Tramer sorgulaması, finansal özgeçmiş sorgulaması, teklif verme gibi sözleşmenin ifası ve işin gereği bakımından gerekli işlemlerin yapılması,</li>
+				<li>Hasar yönetimi gibi satış sonrası hizmetler yerine getirilebilmesi,</li>
+				<li>Hizmet kalitesini geliştirici çalışmalar yapılması ve müşterilerimize daha iyi hizmet sunulması,</li>
+				<li>Hizmetlerimiz karşılığı fatura tanzimi,</li>
+				<li>Dış kaynaklardan hizmet alımı yapılması,</li>
+				<li>Kendi uzmanlık alanına girmeyen konularda hizmet alınabilmesi ve teknoloji hizmeti alınması maksadıyla konusunda uzman kuruluşların faydalarını müşterilerine sunulması,</li>
+				<li>Kimliğinizin teyit edilmesi,</li>
+				<li>Kanunun emredici hükmü gereği Emniyet birimleri gibi kamu kurumlarıyla araç kiralama bilgilerinin paylaşılması vb. yasal yükümlülüklerin yerine getirilmesi</li>
+				<li>Hizmetlerimize ilişkin her türlü soru ve şikâyetinize cevap verebilme,</li>
+				<li>Sistem ve uygulamalarımızın veri güvenliği kapsamında tüm gerekli teknik ve idari tedbirleri alınması,</li>
+				<li>İlgili iş ortaklarımız ve sair üçüncü kişilerle sizlere sunduğumuz ürün ve hizmetlerle ilgili finansal mutabakat sağlanması,</li>
+				<li>Düzenleyici ve denetleyici kurumlarla, resmi mercilerin talep ve denetimleri doğrultusunda gerekli bilgilerin temini,</li>
+				<li>İlgili mevzuat gereği saklanması gereken verilerinize ilişkin bilgileri muhafaza edilmesi,</li>
+				<li>Bilgilerinin tutarlılığına ilişkin denetimin sağlanması,</li>
+				<li>Müşteri memnuniyetinin ölçülmesi,</li>
+				<li>Çalışanlar bakımından; özlük dosyasının oluşturulması, işin gereklerini sürekli olarak yerine getirmeye ehil olup olmadığının tespiti, koç emeklilik vakfı kaydının oluşturulması, özel sağlık sigortası yapılması,</li>
+			</ul>
+			<p>ve bunlarla sınırlı olmaksızın, araç satış/kiralama, satış sonrası hizmetlerinin yürütülmesi, geliştirilmesi, ürün ve hizmetlerin analizi, pazarlama aktiviteleri, rapor alma ve analiz, kanuni takip ve benzeri amaçlarla işlenebilecektir.</p>
+			<li>Kişisel Verilerin Aktarılması</li>
+			<p>Kişisel verileriniz, Kanun ve sair mevzuat kapsamında ve yukarıda yer verilen amaçlarla ilgili otomotiv şirketleri, yurtdışındaki Avis Budget Grup Şirketleri, HemenAl Otomotiv’in altyapı sağlayıcıları, hizmet alınan ve sağlanan üçüncü kişiler, HemenAl Otomotiv, bayi ve/veya franchiseları, sigorta şirketleri, (HemenAl Sigorta’dan başka satış sonrası hizmetlerin yerine getirilebilmesi bakımından diğer sigorta şirketleri), finansman şirketleri, yetkili kurum ve kuruluşlar, resmi merciler dâhil araç satış/kiralama ve satış sonrası hizmetleri başta olmak üzere sunduğumuz hizmetlerin yukarıda belirtilen amaçlarla geliştirilmesi ve yürütülmesi bakımından işbirliği yaptığımız iş ortaklarımız ve diğer üçüncü kişiler ile paylaşılabilecektir.</p>
+			<li>Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi</li>
+			<p>Kişisel verileriniz, her türlü sözlü, yazılı ya da elektronik ortamda, yukarıda yer verilen amaçlar doğrultusunda araç satış/kiralama ve satış sonrası hizmetleri başta olmak üzere sunduğumuz hizmetlerin belirlenen yasal çerçevede sunulabilmesi ve bu kapsamda HemenAl Otomotiv’in sözleşme ve yasadan doğan mesuliyetlerini eksiksiz ve doğru bir şekilde yerine getirebilmesi gayesi ile edinilir.</p>
+			<li>Kişisel Verilerin Korunmasına Yönelik Haklarınız</li>
+			<p>İşlenen kişisel verilerinize ilişkin mevzuat uyarınca; kişisel veri işlenip işlenmediğini öğrenme, kişisel veri işlenmişse buna ilişkin bilgi talep etme, kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme, kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme, kişisel verilerin silinmesini veya yok edilmesini isteme, kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesine ve/veya kişisel verilerin silinmesine veya yok edilmesine ilişkin işlemlerin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, işlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle işlenmesi halinde aleyhe bir sonucun ortaya çıkması ihtimalinde itiraz etme, kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğranılması hâlinde zararın giderilmesini talep etme haklarına sahipsiniz.</p>
+			<li>Veri Güvenliği</li>
+			<p>HemenAl Otomotiv, kişisel verilerinizi, bilgi güvenliği standartları ve prosedürleri çerçevesinde, alınması gereken tüm teknik ve idari güvenlik önlemlerine tam uygunlukla korumaktadır. Söz konusu güvenlik tedbirleri, teknolojik imkânlar da göz önünde bulundurularak muhtemel risklere uygun bir düzeyde sağlanmaktadır.</p>
+			<p>Kanun kapsamındaki taleplerinizi ve kişisel verilerinizle ilgili her türlü sorunuzu, başvuru formunu doldurarak; Aydınevler Mah. Saygı Cad. No:60/1 34854 Küçükyalı, İstanbul, Türkiye adresine (Noter vasıtasıyla vb. yollarla) gönderebilir ya da ilgili formu <a style="color: #fe2728;" href="mailto:kvkk@hemenal.com.tr">kvkk@hemenal.com.tr</a>  kayıtlı elektronik posta adresine elektronik imzalı olarak iletebilirsiniz.</p>
+		</ol>
+		
+		
+	</div>
+</div>
+
+
+
+<div id="linkler" style="text-align: center;">
+	<a href="kullanimsartlari.html"> Kullanım Şartları</a>
+	<a href="kisiselverikorunması.html">Kişisel Verilerin Korunması</a>
+	<a href="politikalar.html">Politikalar</a>
+	<a href="iletisim.html">İletişim</a>
+</div>
+<!--footer -->
+<div id="footer">
+
+	<div id="sitelogo">
+		<img src="img/logo.png" alt="">
+	</div>
+	<div id="sosyal">
+		<div class="fab fa-facebook"></div>
+		<div class="fab fa-instagram"></div>
+		<div class="fab fa-linkedin"></div>
+		<div class="fab fa-twitter"></div>
+		<div class="fab fa-youtube"></div>
+	</div>
+	<div id="uygulama">
+		<img src="img/app-store-btn.png" alt="">
+		<img src="img/google-play-btn.png" alt="">
+	</div>
+	<div id="logolar">
+		<a href="http://www.anadolugrubu.com.tr/" target="_blank">
+        	<img src="img/m3.png" alt="Anadolu Grubu">
+    	</a>
+        <a href="http://www.celikmotor.com/" target="_blank">
+        	<img src="img/m4.png" alt="Çelik Motor">
+        </a>
+        <a href="https://www.bulur.com" target="_blank">
+            <img src="img/m5.png" alt="Bulur">
+        </a>
+        <a href="https://www.garenta.com.tr" target="_blank">
+            <img src="img/m7.png" alt="Garenta Kısa Dönem">
+        </a>
+        <a href="https://www.garentamoov.com" target="_blank">
+            <img src="img/m6.png" alt="Moov">
+        </a>
+        <a href="https://www.garentapro.com" target="_blank">
+            <img src="img/m2.png" alt="Garenta Uzun Dönem">
+        </a>
+        <a href="https://www.praticar.com" target="_blank">
+            <img src="img/m1.png" alt="Praticar">
+        </a>
+
+	</div>
+</div>
+<!--footer -->
+</body>
